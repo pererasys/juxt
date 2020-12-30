@@ -10,7 +10,7 @@ Automated analysis is available with a subscription, and will provide insight on
 
 _Arrows denote the flow of data._
 
-![Service Architecture](https://github.com/pererasys/hedger-local/blob/master/docs/resources/architecture.png?raw=true)
+![Service Architecture](https://github.com/pererasys/juxt/blob/master/resources/architecture.png?raw=true)
 
 This application follows microservice methodologies which allows me to easily implement and test new features without the hassel of maintaining a monolithic codebase. While the Market and Blog API's could likely be joined with the GraphQL/Core service, my Kafka consumers will be interacting with these services and I didn't want to go through the GraphQL layer to make this happen. I found it easier to create separate services for these interactions, so I've moved all the business logic to REST API's.
 
@@ -18,11 +18,11 @@ Also, if this tool becomes widely adopted in the trading community, I expect the
 
 ### Tech Stack
 
-|**Client**|**GraphQL**|**Market API & Blog API**|**Real-time Analysis (Kafka Consumers & Producers w/REST API)**|
-|:---|:----|:---|:----|
-|NextJS|Apollo Server|ExpressJS|Faust|
-|Apollo Client|MongoDB|MongoDB|RocksDB|
-|TypeScript|TypeScript|TypeScript|Python|
+| **Client**    | **GraphQL**   | **Market API & Blog API** | **Real-time Analysis (Kafka Consumers & Producers w/REST API)** |
+| :------------ | :------------ | :------------------------ | :-------------------------------------------------------------- |
+| NextJS        | Apollo Server | ExpressJS                 | Faust                                                           |
+| Apollo Client | MongoDB       | MongoDB                   | RocksDB                                                         |
+| TypeScript    | TypeScript    | TypeScript                | Python                                                          |
 
 **Some notes**
 
@@ -30,11 +30,11 @@ This are my currently implemented tech stack. For some of the analysis I have be
 
 ### Testing
 
-|**Client**|**GraphQL**|**Market API & Blog API**|**Real-time Analysis (Kafka Consumers & Producers w/REST API)**|
-|:---|:----|:---|:----|
-|Jest|Jest (mocking)|Jest (mocking & API testing)|Faust's built-in Agent tester|
-||mongodb-memory-server (service integration)|mongodb-memory-server (service integration)|pytest (mocking)|
-||apollo-server-testing (graphql integration)|||
+| **Client** | **GraphQL**                                 | **Market API & Blog API**                   | **Real-time Analysis (Kafka Consumers & Producers w/REST API)** |
+| :--------- | :------------------------------------------ | :------------------------------------------ | :-------------------------------------------------------------- |
+| Jest       | Jest (mocking)                              | Jest (mocking & API testing)                | Faust's built-in Agent tester                                   |
+|            | mongodb-memory-server (service integration) | mongodb-memory-server (service integration) | pytest (mocking)                                                |
+|            | apollo-server-testing (graphql integration) |                                             |                                                                 |
 
 I'm currently working on an E2E testing solution that fits my CI/CD process, but it hasn't been implemented yet.
 
