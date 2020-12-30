@@ -46,4 +46,4 @@ Right now I've done an initial monitoring/logging setup in the GraphQL service u
 
 ### Deployment
 
-I am currently considering my options for deployment. I am going to be using AWS resources, so some options I am considering include: Kubernetes, ECS, MongoDB Atlas, Neo4j Aura, AWS ElasticSearch.
+I am currently considering my options for deployment. I am going to be using AWS resources, so some options I am considering include: Elastic Kubernetes, ECS, MongoDB Atlas, Neo4j Aura, Elasticsearch, and MSK.
