@@ -14,7 +14,7 @@ _Arrows denote the flow of data._
 
 This application follows microservice methodologies which allows me to easily implement and test new features without the hassel of maintaining a monolithic codebase. While the Market and Blog API's could likely be joined with the GraphQL/Core service, my Kafka consumers will be interacting with these services and I didn't want to go through the GraphQL layer to make this happen. I found it easier to create separate services for these interactions, so I've moved all the business logic to REST API's.
 
-Also, if this tool becomes widely adopted in the trading community, I expect the Blog and Market services to handle the bulk of requests. By segregating these services from the rest of the application, I will be able to dedicate more resources to their independent environments which should allow me to scale relatively easily.
+Also, if this tool becomes widely adopted in the trading community, I expect the Blog and Market services to handle the bulk of requests. By segregating these services from the rest of the application, I will be able to dedicate more resources to their environments which should allow me to further scale in a vertical fashion.
 
 ### Tech Stack
 
