@@ -1,6 +1,6 @@
 # Juxt
 
-Juxt is a platform I am building that aims to automate fundamental and technical analysis of publicly traded companies, and allows independent analysts to share ideas. While still in development, my goal is to provide the most sophisticated analytical software on the market.
+Juxt is a platform I am building that aims to automate fundamental and technical analysis of publicly traded companies, and allows independent analysts to share ideas. While still in development, my goal is to produce the most sophisticated analytical software on the market.
 
 Users of this platform have the ability to create watchlists to receive notifications for recent updates, read blog posts from other users, perform technical analysis with a comprehensive charting feature, and more.
 
