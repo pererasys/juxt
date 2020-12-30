@@ -10,7 +10,7 @@ Automated analysis is available with a subscription, and will provide insight on
 
 _Arrows denote the flow of data._
 
-![Service Architecture](https://github.com/pererasys/juxt/blob/master/resources/architecture.png?raw=true)
+![Service Architecture](https://github.com/pererasys/juxt/blob/main/resources/architecture.png?raw=true)
 
 This application follows microservice methodologies which allows me to easily implement and test new features without the hassel of maintaining a monolithic codebase. While the Market and Blog API's could likely be joined with the GraphQL/Core service, my Kafka consumers will be interacting with these services and I didn't want to go through the GraphQL layer to make this happen. I found it easier to create separate services for these interactions, so I've moved all the business logic to REST API's.
 
