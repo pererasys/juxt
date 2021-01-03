@@ -4,7 +4,7 @@ Juxt is a platform I am building that aims to automate fundamental and technical
 
 Users of this platform have the ability to create watchlists to receive notifications for recent updates, read blog posts from other users, perform technical analysis with a comprehensive charting feature, and more.
 
-Automated analysis is available with a subscription, and will provide insight on market sentiment, potentially profitable trading strategies, and next-generation analytics from sophisticated deep learning models trained on historical market conditions.
+Automated analysis is available with a subscription, and will provide insight on market sentiment, potentially profitable trading strategies, and analytics from  ML models trained on historical market conditions.
 
 ### Service Architecture
 
