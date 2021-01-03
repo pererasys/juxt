@@ -36,14 +36,10 @@ This are my currently implemented tech stack. For some of the analysis I have be
 |            | mongodb-memory-server (service integration) | mongodb-memory-server (service integration) | pytest (mocking)                                                |
 |            | apollo-server-testing (graphql integration) |                                             |                                                                 |
 
-I'm currently working on an E2E testing solution that fits my CI/CD process, but it hasn't been implemented yet.
-
-Some tools I am considering using include: Jenkins, Cypress, and JMeter (performance).
-
 ### Monitoring & Logging
 
 Right now I've done an initial monitoring/logging setup in the GraphQL service using Sematext. I've found that their platform is very easy to use and setup, and I should be able to use it with all of my various services once I begin Alpha testing.
 
 ### Deployment
 
-I am currently considering my options for deployment. I am going to be using AWS resources, so some options I am considering include: EKS, ECS, MongoDB Atlas, Neo4j Aura, Elasticsearch, and MSK.
+I am currently considering my options for deployment. I am going to be using AWS resources, so some options I am considering include: EKS, ECS, MongoDB Atlas, Neo4j Aura, Elasticsearch, MSK, Neptune, and more.
