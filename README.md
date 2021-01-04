@@ -36,6 +36,11 @@ This are my currently implemented tech stack. For some of the analysis I have be
 |            | mongodb-memory-server (service integration) | mongodb-memory-server (service integration) | pytest (mocking)                                                |
 |            | apollo-server-testing (graphql integration) |                                             |                                                                 |
 
+
+### CI/CD
+
+Currently the CI process is handled with CircleCI. CircleCI is a CI/CD tool which automates testing, building, and deployment for each of the services.
+
 ### Monitoring & Logging
 
 Right now I've done an initial monitoring/logging setup in the GraphQL service using Sematext. I've found that their platform is very easy to use and setup, and I should be able to use it with all of my various services once I begin Alpha testing.
