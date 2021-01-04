@@ -30,10 +30,10 @@ This are my currently implemented tech stack. For some of the analysis I have be
 
 ### Testing
 
-| **Client** | **GraphQL**                                 | **Market API & Blog API**                   | **Real-time Analysis (Kafka Consumers & Producers w/REST API)** |
+| **Client**        | **GraphQL**                                 | **Market API & Blog API**                   | **Real-time Analysis (Kafka Consumers & Producers w/REST API)** |
 | :--------- | :------------------------------------------ | :------------------------------------------ | :-------------------------------------------------------------- |
 | Jest       | Jest (mocking)                              | Jest (mocking & API testing)                | Faust's built-in Agent tester                                   |
-|            | mongodb-memory-server (service integration) | mongodb-memory-server (service integration) | pytest (mocking)                                                |
+| testing-library (DOM testing)  | mongodb-memory-server (service integration) | mongodb-memory-server (service integration) | pytest (mocking)                                                |
 |            | apollo-server-testing (graphql integration) |                                             |                                                                 |
 
 
